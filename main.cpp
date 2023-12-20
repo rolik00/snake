@@ -13,8 +13,7 @@ int fruitX, fruitY;
 int Score;
 int snakeTailX[100], snakeTailY[100];
 int snakeTailLen;
-enum snakesDirection { STOP = 0, LEFT, RIGHT, UP, DOWN };
-snakesDirection dir;
+enum snakesDirection { STOP = 0, LEFT, RIGHT, UP, DOWN } dir;
 bool isGameOver;
  
 void hidecursor()
